@@ -1,0 +1,333 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card-hover-zoom {
+  transition: transform .2s; /* Animation for hover effect */
+}
+
+.card-hover-zoom:hover {
+  transform: scale(1.05); /* Slightly enlarges the card on hover */
+}
+
+.custom-card-blue {
+  background-color: #007bff;
+  color: white;
+}
+
+.custom-card-green {
+  background-color: #28a745;
+  color: white;
+}
+
+.custom-card-yellow {
+  background-color: #ffc107;
+  color: black;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-primary-custom {
+  background-color: #157190;
+  color: #ffffff;
+}
+
+.bg-secondary-custom {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.btn-custom-light {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-custom-light:hover {
+  background-color: #157190;
+  color: #ffffff;
+}
+
+.navbar-custom .navbar-brand, .navbar-custom .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-custom .navbar-brand:hover, .navbar-custom .navbar-nav .nav-link:hover {
+  color: #cccccc; /* Lighter shade for hover effect */
+}
+
+/* Footer Styles */
+.footer-custom {
+  background-color: #157190; /* Slightly darker than navbar for contrast */
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-custom a {
+  color: #ffffff;
+}
+
+.footer-custom a:hover {
+  color: #cccccc; /* Lighter shade for hover effect */
+}
+
+/* Ensure this selector is specific enough to override Bootstrap's default styles */
+.navbar-custom .navbar-nav .nav-link {
+  color: white; /* Adjust if you have a different preference */
+}
+
+
+.bg-dark-blue {
+  background-color: #157190; /* Dark blue */
+  color: white; /* Ensuring text is white for contrast */
+}
+
+.login-page-background {
+  background: url('/public/image.webp') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.registration-page-background {
+  background: url('/public/image1.webp') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.home-page-background {
+  /* Adjust the path according to your image's location */
+  background-image: url('/public/home.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* You might want to adjust the text color or add background to content for readability */
+.content-section {
+  background-color: rgba(255, 255, 255, 0.8); /* Light background for content sections */
+
+  border-radius: 5vw; /* Example of using viewport width for responsive design */
+  padding: 2vw; /* Responsive padding */
+  
+}
+
+/* Example Media Query for adjustments on smaller screens */
+@media (max-width: 768px) {
+  .content-section {
+    padding: 4vw;
+    border-radius: 2vw;
+  }
+}
+
+
+.auth-background {
+  background-image: url('../public/home.webp');
+  background-size: cover;
+
+  background-position: center;
+
+
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.auth-card {
+  width: auto; /* Adjust based on your preference */
+  margin-top: -50px; /* Adjust if necessary */
+}
+
+.custom-card-size {
+  width: 30rem; /* Adjust the width as needed */
+}
+
+.card-transparency {
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the transparency as needed */
+}
+
+
+/* Forgot Password Page Background */
+.forgot-password-page-background {
+  background: url('../public/home.webp') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.forgot-password-page-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for glossy effect */
+  z-index: 0;
+}
+
+/* Reset Password Page Background */
+.reset-password-page-background {
+  background: url('../public/about.webp') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.reset-password-page-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for glossy effect */
+  z-index: 0;
+}
+
+/* Card Style for Glossy Effect */
+.card {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  backdrop-filter: blur(5px); /* Blur effect for the background */
+}
+
+/* Ensure content is above the overlay */
+.card, .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Navbar Styles */
+.navbar-custom {
+  background-color: #157190; /* Dark blue background */
+  color: white;
+}
+
+/* Dropdown Styles */
+.navbar-custom .dropdown-menu {
+  background-color: #157190; /* Different shade of blue for the dropdown */
+}
+
+.navbar-custom .dropdown-item {
+  color: white;
+}
+
+/* .navbar-custom .dropdown-item:hover, .navbar-custom .dropdown-item:focus {
+  color: blue;
+} */
+
+.navbar-custom .nav-link:hover, .navbar-custom .nav-link:focus {
+  background-color: transparent; /* Ensure background is transparent on hover/focus */
+}
+
+/* Adjusting the color for the dropdown toggle to stand out */
+.navbar-custom .nav-link.dropdown-toggle {
+  color: white; /* Using a gold color to stand out */
+}
+
+.navbar-custom .nav-link.dropdown-toggle:hover, .navbar-custom .nav-link.dropdown-toggle:focus {
+  color: white; /* Keeping the gold color on hover/focus */
+}
+
+
+
+/* Increase the z-index for the navbar */
+.navbar-custom {
+  z-index: 1050; /* 1050 is typically high enough to be above most elements */
+  position: relative; /* z-index only works on positioned elements (position:absolute, position:relative, or position:fixed) */
+}
+
+/* Ensure the dropdown has a high z-index as well */
+.navbar-custom .dropdown-menu {
+  z-index: 1051; /* Ensure dropdown is above navbar */
+}
+
+
+.contact-us-background {
+  padding: 60px 0;
+  /* background-image: url('../public/about.webp');  */
+  background-size: cover;
+  background-position: center;
+  color: #000000;
+}
+
+.contact-us-form {
+  background-color:white(47, 0, 142, 0.7); /* Semi-transparent background */
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.contact-us-form h2 {
+  color: #000000;
+}
+
+.contact-us-form .form-label,
+.contact-us-form .form-control {
+  color: #000000;
+}
+
+.contact-us-form .form-control {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.contact-us-form .form-control::placeholder {
+  color: #000000;
+}
+
+.contact-us-form .btn-primary {
+  background-color: #007bff; /* Customize button color */
+  border: none;
+}
+
+.text-icon1 {
+  margin-right: 20px;
+}
+
+.title {
+  font-weight: 500;
+  /* margin-right: 30px; */
+  padding-right: 30px;
+  /* background-color: red; */
+  /* font-size: 25px; */
+}

@@ -1,0 +1,96 @@
+.profile-container {
+    display: flex;
+    color: #157190;
+  }
+  
+  .left-panel {
+    width: 30%;
+    height: 400px;
+    padding: 20px;
+    margin-top: 100px;
+    padding-left: 50px;
+    border-right: 2px solid grey;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Make it round */
+    background-color: #ccc; /* Placeholder color */
+  }
+  
+  .user-details {
+    margin-top: 20px;
+    font-size: 34px;
+    font-weight: 800;
+}
+
+  
+  .right-panel {
+    flex: 1;
+    padding: 20px;
+    background-color: #ebebeb;
+  }
+
+  .fields {
+    margin-bottom: 20px;
+  }
+
+  .editButton {
+    margin-right: 20px;
+  }
+  
+  .profile-icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ccc; /* Default background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px; /* Adjust font size as needed */
+    font-weight: bold;
+    color: #fff; /* Text color */
+  }
+  
+  .alert {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  /* Additional styling for form fields can be added here */  
+
+  .background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); 
+    z-index: -1; 
+}
+
+.rp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m3 {
+  width: 150px;
+  background-color: #157190;
+  color: white;
+  margin: 10px;
+  border: 1px solid #157190;
+}
+
+.m3:hover {
+  background-color: #008bb9;
+  color:white;
+  
+}

@@ -1,0 +1,135 @@
+/* Common styles */
+.appointment-card1 {
+  width: 900px; /* Adjust as needed */
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border: 3px solid #157190;
+}
+
+.appointment-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.appointment-details {
+  margin-bottom: 20px;
+}
+
+.appointment-details p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Specific styles */
+.view-appoint2 {
+  /* background-color: red; */
+  margin-left: 5%;
+  margin-top: 5%;
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.dropGroup {
+  display: flex;
+  flex-direction: row; /* Align dropdowns vertically */
+  align-items: flex-start; /* Align dropdowns to the left */
+  /* justify-content: space-around; */
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.dropdown-container {
+  margin-bottom: 20px; /* Increase spacing between dropdowns */
+  margin-right: 150px;
+}
+
+.dropdown-container select {
+  width: 300px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.appointment-details span {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.appointment-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointment-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.appointment-buttons button.cancel-btn {
+  background-color: #ff4d4f;
+  color: #ffffff;
+}
+
+.appointment-buttons button.modify-btn {
+  background-color: #1890ff;
+  color: #ffffff;
+}
+
+.appointment-buttons button:hover {
+  opacity: 0.8;
+}
+
+.appItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.AppHead1 {
+  display: flex;
+  justify-content: flex-start;
+  float: left;
+  width: 100%;
+  background: linear-gradient(to right, #cce5ff, #fff); /* Gradient from left to right */
+  padding: 10px;
+  margin-left: 5;
+}
+
+.cancelDiv {
+  margin-top: 50px;
+  margin-left: 5%;
+  max-height: 630px;
+  /* background-color: red; */
+  overflow: auto; /* Hide any content that overflows */
+}
+
+.viewAppoint2 {
+    overflow-y: auto; 
+    max-height: 100%;
+    padding: 10px; 
+    /* background-color: pink; */
+}
+
+/* CancelApp.css */
+.no-appointments-message {
+  font-size: 20px; /* Increased font size for better visibility */
+  color: #fff; /* White text color for better contrast */
+  background-color: #ff6b6b; /* Red background color for emphasis */
+  text-align: center;
+  padding: 10px; /* Add padding for better spacing */
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.cancelText {
+  color: #157190;
+}

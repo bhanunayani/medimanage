@@ -1,0 +1,222 @@
+.myBox {
+    border-radius: 50px;
+    background-color: #338FAE;
+}
+
+.mT {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.m3 {
+    width: 200px;
+    background-color: #157190;
+    color: white;
+}
+
+.c {
+    background-color: #338FAE;
+    width: 300px;
+}
+
+.d {
+    background-color: #338FAE;
+}
+
+
+/* Custom CSS for Healthcare Cards */
+
+.container-custom {
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .row-custom {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .col-custom-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .card-custom {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body-custom {
+    padding: 20px;
+  }
+  
+  .card-title-custom {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-text-custom {
+    font-size: 1rem;
+  }
+  
+  .bg-info-custom {
+    background-color: #5bc0de; /* Info color */
+  }
+  
+  .bg-success-custom {
+    background-color: #5cb85c; /* Success color */
+  }
+  
+  .bg-warning-custom {
+    background-color: #f0ad4e; /* Warning color */
+  }
+  
+  .text-white-custom {
+    color: #fff;
+  }
+  
+  .text-dark-custom {
+    color: #333;
+  }
+  
+  .card-hover-zoom-custom {
+    transition: transform 0.2s;
+  }
+  
+  .card-hover-zoom-custom:hover {
+    transform: scale(1.05);
+  }
+  
+   
+  .m2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .myFooter {
+    background-color: #157190;
+    padding: 20px;
+    padding-left: 90px;
+    padding-top: 30px;
+    /* text-align: center; */
+}
+
+.m2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 70px;
+    color: white;
+}
+
+.m2 > div {
+    flex: 1;
+    padding: 0 10px;
+    min-width: 300px;
+    /* background-color: red; */
+}
+
+.mh1 {
+  font-weight: bold;
+  font-size: 18px;
+  position: relative; /* Make the parent element relative */
+  margin-bottom: 20px;
+}
+
+.mh1::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; /* Adjust as needed */
+  left: 0;
+  width: 60%;
+  height: 5px; /* Adjust height of the gradient */
+  background: linear-gradient(to right, #007bff, #ff00ff); /* Adjust colors as needed */
+}
+
+
+
+.mp1 {
+    margin: 5px 0;
+}
+
+/* Optional: Add hover effect */
+.mp1:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.m1 {
+width: 500px;
+color: white;
+margin-right: 50px;
+}
+
+.myT {
+  font-size: 34px;
+  font-weight: bold;
+  color: white; /* Adjust color as needed */
+  margin-bottom: 20px;
+}
+
+.myI {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Add border for input */
+  border-radius: 5px; /* Add border radius for input */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.myB {
+  background-color: #3f51b5;
+  width: 70%;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.myB:hover {
+  background-color: #0056b3; /* Darker shade of primary color on hover */
+}
+
+.myt2 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.myp2 {
+  font-size: small;
+}
+
+.myCall {
+  display: flex;
+  justify-content: space-around;
+  /* padding: 20px; */
+  color: white;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+.myC1 p {
+  margin: 5px 5px;
+}
+
+.myC1 i {
+  color: orange; /* Set the color of the icon */
+  margin-right: 5px; /* Add some spacing between the icon and text */
+}
+
+
+

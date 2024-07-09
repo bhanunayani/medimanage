@@ -1,0 +1,267 @@
+[
+    {
+      "doctorName": "Dr. John Smith",
+      "doctorSpecialization": "cardiology",
+      "doctorID": "cardio1",
+      "date": "2024-04-11",
+      "time": [
+        "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+      ],
+      "available": true,
+      "appointments": []
+    },
+    {
+      "doctorName": "Dr. Emily Johnson",
+      "doctorSpecialization": "cardiology",
+      "doctorID": "cardio2",
+      "date": "2024-04-12",
+      "time": [
+        "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+      ],
+      "available": true,
+      "appointments": []
+    },
+    {
+      "doctorName": "Dr. Michael Brown",
+      "doctorSpecialization": "cardiology",
+      "doctorID": "cardio3",
+      "date": "2024-04-13",
+      "time": [
+        "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+      ],
+      "available": true,
+      "appointments": []
+    },
+    {
+      "doctorName": "Dr. Sarah Lee",
+      "doctorSpecialization": "cardiology",
+      "doctorID": "cardio4",
+      "date": "2024-04-14",
+      "time": [
+        "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+      ],
+      "available": true,
+      "appointments": []
+    },
+    {
+      "doctorName": "Dr. Samantha White",
+      "doctorSpecialization": "cardiology",
+      "doctorID": "cardio5",
+      "date": "2024-04-15",
+      "time": [
+        "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+      ],
+      "available": true,
+      "appointments": []
+    },
+    {
+      "doctorName": "Dr. Daniel Martinez",
+      "doctorSpecialization": "cardiology",
+      "doctorID": "cardio6",
+      "date": "2024-04-11",
+      "time": [
+        "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+      ],
+      "available": true,
+      "appointments": []
+    },
+    {
+        "doctorName": "Dr. David Johnson",
+        "doctorSpecialization": "orthopedics",
+        "doctorID": "ortho1",
+        "date": "2024-04-11",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. Rachel Smith",
+        "doctorSpecialization": "orthopedics",
+        "doctorID": "ortho2",
+        "date": "2024-04-12",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. Robert Brown",
+        "doctorSpecialization": "orthopedics",
+        "doctorID": "ortho3",
+        "date": "2024-04-13",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. Jennifer Lee",
+        "doctorSpecialization": "orthopedics",
+        "doctorID": "ortho4",
+        "date": "2024-04-14",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. Jessica White",
+        "doctorSpecialization": "orthopedics",
+        "doctorID": "ortho5",
+        "date": "2024-04-15",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. Samuel Martinez",
+        "doctorSpecialization": "orthopedics",
+        "doctorID": "ortho6",
+        "date": "2024-04-11",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. Emily Garcia",
+        "doctorSpecialization": "pediatrics",
+        "doctorID": "ped1",
+        "date": "2024-04-11",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. Daniel Rodriguez",
+        "doctorSpecialization": "pediatrics",
+        "doctorID": "ped2",
+        "date": "2024-04-12",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. Sofia Martinez",
+        "doctorSpecialization": "pediatrics",
+        "doctorID": "ped3",
+        "date": "2024-04-13",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. Olivia Brown",
+        "doctorSpecialization": "pediatrics",
+        "doctorID": "ped4",
+        "date": "2024-04-14",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. Lucas White",
+        "doctorSpecialization": "pediatrics",
+        "doctorID": "ped5",
+        "date": "2024-04-15",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. Isabella Taylor",
+        "doctorSpecialization": "pediatrics",
+        "doctorID": "ped6",
+        "date": "2024-04-11",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. Alexander Wilson",
+        "doctorSpecialization": "psychiatry",
+        "doctorID": "psych1",
+        "date": "2024-04-11",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. Sophia Johnson",
+        "doctorSpecialization": "psychiatry",
+        "doctorID": "psych2",
+        "date": "2024-04-12",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. William Brown",
+        "doctorSpecialization": "psychiatry",
+        "doctorID": "psych3",
+        "date": "2024-04-13",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. Olivia Garcia",
+        "doctorSpecialization": "psychiatry",
+        "doctorID": "psych4",
+        "date": "2024-04-14",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. James White",
+        "doctorSpecialization": "psychiatry",
+        "doctorID": "psych5",
+        "date": "2024-04-15",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      },
+      {
+        "doctorName": "Dr. Emma Martinez",
+        "doctorSpecialization": "psychiatry",
+        "doctorID": "psych6",
+        "date": "2024-04-11",
+        "time": [
+          "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"
+        ],
+        "available": true,
+        "appointments": []
+      }
+  ]
+  

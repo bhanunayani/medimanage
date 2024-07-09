@@ -1,0 +1,189 @@
+/* contactus.css */
+
+.FBcontact-us-background {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    color: #157190;
+  }
+    
+  .FBcontact-us-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+    
+  .FBcontact-us-form h2 {
+    color: #333333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+    
+  .FBcontact-us-form .form-group {
+    margin-bottom: 20px;
+  }
+    
+  .FBcontact-us-form .form-group label {
+    color: #555555;
+    font-size: 16px;
+  }
+    
+  .FBcontact-us-form .form-control {
+    border-radius: 5px;
+  }
+    
+  .FBcontact-us-form .d-grid {
+    margin-top: 20px;
+  }
+    
+  .FBcontact-us-form .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+    
+  .FBcontact-us-form .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .FBcontact-us-form .alert {
+    margin-top: 20px;
+  }
+  
+  .background-container2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); 
+    z-index: -1; 
+}
+
+.contact-us-background {
+  background: url('./b4.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Applying the blur effect to the ::before pseudo-element */
+.contact-us-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+.contact-us-form {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: -4rem; /* Adjust this value as necessary */
+}
+
+/* Rest of the styles ... */
+
+/* Additional styles for slider visibility */
+.slider-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.slider-label {
+  font-size: 1rem;
+  color: #333;
+}
+
+input[type='range'] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 6px;
+  background: #ddd;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #157190;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+input[type='range']::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #157190;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.custom-range {
+  width: 100%;
+  height: 1.4rem; /* Increase slider thumb size for better visibility */
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+
+.custom-range:focus {
+  outline: none;
+}
+
+.custom-range::-webkit-slider-thumb {
+  width: 25px;
+  height: 25px;
+  background: #157190;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  margin-top: -10px; /* Adjust thumb position to be centered */
+}
+
+.custom-range::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #157190;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.custom-range::-ms-thumb {
+  width: 25px;
+  height: 25px;
+  background: #157190;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/* Add this if you want a track for the slider */
+.custom-range::-webkit-slider-runnable-track,
+.custom-range::-moz-range-track,
+.custom-range::-ms-track {
+  height: 8px;
+  cursor: pointer;
+  background: #ddd;
+  border-radius: 1.3rem;
+}

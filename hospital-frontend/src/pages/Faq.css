@@ -1,0 +1,190 @@
+.faq-container {
+    font-family: Arial, sans-serif;
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-image: url('https://www.pngmart.com/files/23/Blue-Gradient-PNG-Photos.png'); /* Replace 'your-image-path.jpg' with the path to your image */
+    background-size: cover; /* This will make sure the image covers the entire container */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+    background-position: center; /* This will position the image at the center */
+}
+
+  
+  .faq-container h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .faq-container p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+    border-bottom: 3px solid white;
+    padding-bottom: 20px;
+  }
+  
+  .faq-item strong {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .faq-item p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .faq-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Responsive Styling */
+  @media screen and (max-width: 600px) {
+    .faq-container {
+      padding: 10px;
+    }
+  
+    .faq-container h1 {
+      font-size: 24px;
+    }
+  
+    .faq-item strong {
+      font-size: 16px;
+    }
+  
+    .faq-item p {
+      font-size: 14px;
+    }
+  }
+
+  .f1 {
+    margin-bottom: 50px;
+  }
+  
+   
+  .m2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .myFooter {
+    background-color: #157190;
+    padding: 20px;
+    padding-left: 90px;
+    padding-top: 30px;
+    /* text-align: center; */
+}
+
+.m2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 70px;
+    color: white;
+}
+
+.m2 > div {
+    flex: 1;
+    padding: 0 10px;
+    min-width: 300px;
+    /* background-color: red; */
+}
+
+.mh1 {
+  font-weight: bold;
+  font-size: 18px;
+  position: relative; /* Make the parent element relative */
+  margin-bottom: 20px;
+}
+
+.mh1::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; /* Adjust as needed */
+  left: 0;
+  width: 60%;
+  height: 5px; /* Adjust height of the gradient */
+  background: linear-gradient(to right, #007bff, #ff00ff); /* Adjust colors as needed */
+}
+
+
+
+.mp1 {
+    margin: 5px 0;
+}
+
+/* Optional: Add hover effect */
+.mp1:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.m1 {
+width: 500px;
+color: white;
+margin-right: 50px;
+}
+
+.myT {
+  font-size: 34px;
+  font-weight: bold;
+  color: white; /* Adjust color as needed */
+  margin-bottom: 20px;
+}
+
+.myI {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Add border for input */
+  border-radius: 5px; /* Add border radius for input */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.myB {
+  background-color: #3f51b5;
+  width: 70%;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.myB:hover {
+  background-color: #0056b3; /* Darker shade of primary color on hover */
+}
+
+.myt2 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.myp2 {
+  font-size: small;
+}
+
+.myCall {
+  display: flex;
+  justify-content: space-around;
+  /* padding: 20px; */
+  color: white;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+.myC1 p {
+  margin: 5px 5px;
+}
+
+.myC1 i {
+  color: orange; /* Set the color of the icon */
+  margin-right: 5px; /* Add some spacing between the icon and text */
+}

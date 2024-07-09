@@ -1,0 +1,69 @@
+.VPcontainer {
+  margin: 3% 1%;
+  max-width: 1000px;
+}
+
+.VPresponsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+
+.VPresponsive-table caption {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.VPresponsive-table th,
+.VPresponsive-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.VPresponsive-table th {
+  background-color: #cce5ff; /* Lighter shade of blue */
+  color: #333;
+  position: relative;
+}
+
+.VPresponsive-table th:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  right: 0;
+  width: 1px;
+  background-color: #fff; /* Vertical white line */
+}
+
+.VPresponsive-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.VPresponsive-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.VPresponsive-table tfoot {
+  font-style: italic;
+  color: #666;
+}
+
+.AppHead {
+  display: flex;
+  justify-content: flex-start;
+  float: left;
+  width: 100%;
+  background: linear-gradient(to right, #cce5ff, #fff); /* Gradient from left to right */
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 10 14px 18px rgba(0, 0, 0, 0.1);
+  /* padding: 20px; */
+  margin: 20px;
+  margin-top: 80px;
+}

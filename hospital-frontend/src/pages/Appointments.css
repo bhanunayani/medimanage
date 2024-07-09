@@ -1,0 +1,44 @@
+.appoint {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f8f8f8; /* Updated background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increased box shadow */
+}
+
+.form-label {
+    width: 400px; /* Adjusted label width for better alignment */
+    margin-right: 10px; /* Reduced margin between label and input field */
+    font-size: 16px; /* Slightly reduced font size */
+}
+
+.success-message {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+    border-radius: 5px;
+}
+
+.topRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Changed to space-between for better spacing */
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color: #157190; /* Changed heading color */
+}
+
+.appointmentsPage {
+    color: #157190;
+}
+
+.appHeadLine {
+    font-size: 33px;
+}

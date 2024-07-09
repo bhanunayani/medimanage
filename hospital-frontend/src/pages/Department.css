@@ -1,0 +1,182 @@
+                                     /* Container for all departments */
+.departments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px; /* Margin around the entire container */
+  }
+  
+  /* Individual department card */
+  .department {
+    flex: 1 1 100%; /* Each department takes full width */
+    /* background-color: #ebfbff; */
+    background-color: #F5F5F5;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 40px;
+  }
+  
+  /* Styling for services section */
+  .services {
+    width: 55%;
+    margin-bottom: 20px;
+    /* background-color: red; */
+  }
+  
+  .services h3 {
+    color: #333; /* Dark gray */
+    font-weight: bold; /* Increased font weight */
+    margin-bottom: 10px;
+  }
+  
+  .services ul {
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .services ul li {
+    list-style-type: none;
+    color: #333; /* Dark gray */
+    font-family: Arial, sans-serif; /* Improved font style */
+    font-weight: 600; /* Increased font weight */
+    margin-bottom: 5px;
+    flex-basis: calc(50% - 10px); /* Two columns with 5px gap */
+    position: relative;
+    line-height: 45px;
+    font-size: 20px;
+  }
+  
+  .services ul li::before {
+    content: '\2713'; /* Tick symbol */
+    color: blue; /* Blue color */
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    font-size: 1.2em;
+    position: absolute;
+    left: -25px;
+    top: 2px;
+  }
+  
+  .group {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    /* justify-content: space-between; */
+  }
+  
+  .cardiology {
+    background-image: url("https://images.unsplash.com/photo-1581056771107-24ca5f033842?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9jdG9yJTIwcGF0aWVudHxlbnwwfHwwfHx8Mg%3D%3D");
+    background-size: cover; /* Adjusts the size of the background image to cover the entire element */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-position: center; /* Centers the background image */
+    width: 45%;
+    height: 360px;
+    border: 6px solid white;
+    border-radius: 10px;
+  }
+
+  .orthopedics {
+    background-image: url("https://plus.unsplash.com/premium_photo-1664302336737-37fce6daca3c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZG9jdG9yJTIwcGF0aWVudHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover; /* Adjusts the size of the background image to cover the entire element */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-position: center; /* Centers the background image */
+    width: 45%;
+    height: 360px;
+    border: 6px solid white;
+    border-radius: 10px;
+  }
+
+  .pediatrics {
+    background-image: url("https://images.unsplash.com/photo-1576765975429-d2d8cf8c0ba0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGRvY3RvciUyMHBhdGllbnQlMjBmcnVpdHN8ZW58MHx8MHx8fDI%3D");
+    background-size: cover; /* Adjusts the size of the background image to cover the entire element */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-position: center; /* Centers the background image */
+    width: 45%;
+    height: 360px;
+    border: 6px solid white;
+    border-radius: 10px;
+  }
+
+  .psychology {
+    background-image: url("https://media.gettyimages.com/id/1473559425/photo/female-medical-practitioner-reassuring-a-patient.jpg?s=612x612&w=0&k=20&c=kGbm-TE5qdppyyiteyip7_CzKLktyPrRuWD4Zz2EcqE=");
+    background-size: cover; /* Adjusts the size of the background image to cover the entire element */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-position: center; /* Centers the background image */
+    width: 45%;
+    height: 360px;
+    border: 6px solid white;
+    border-radius: 10px;
+  }
+
+  /* Styling for doctors section */
+.doctors {
+    margin-top: 20px; /* Add some margin space between services and doctors */
+    font-weight: 700;
+  }
+  
+  .doctors h3 {
+    color: #333; /* Dark gray */
+    font-weight: bold; /* Increased font weight */
+    margin-bottom: 10px;
+  }
+  
+  .doctors ul {
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap into multiple lines */
+    justify-content: space-between; /* Distribute items evenly */
+  }
+  
+  .doctors li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White background */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(20% - 20px); /* 5 doctors per row with margins */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .doctors li:hover {
+    background-color: #02c5c7; /* Hover background color */
+    color: #ffffff; /* Text color on hover */
+  }
+  
+  .doctor-name {
+    color: #333; /* Dark gray */
+    font-weight: bold; /* Increased font weight */
+    margin-bottom: 5px;
+  }
+  
+  .doctor-specialization {
+    color: #666; /* Medium gray */
+  }
+  
+  /* CSS */
+.service-description-container {
+    position: fixed;
+    top: 150px;
+    left: 300px;
+    right: 0;
+    padding: auto;
+    width: 800px;
+    /* background-color: rgba(255, 255, 255, 0.8);  */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999; /* Ensure the description appears above other content */
+  }
+  
+  .service-description {
+    color: #333; /* Dark gray */
+    font-family: Arial, sans-serif; /* Improved font style */
+    font-size: 16px;
+  }
+  

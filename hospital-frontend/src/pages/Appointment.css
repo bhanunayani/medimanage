@@ -1,0 +1,69 @@
+/* App.css */
+.app1 {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); 
+    z-index: -1; 
+}
+
+.navbar1 {
+    background-color: #157190; /* Light shade of light blue */
+    width: 440px;
+    padding-top: 30px;
+    height: 300px; /* Set fixed height */
+    margin-top: calc((100vh - 440px) / 2); /* Center vertically */
+    border-top-right-radius: 20px; /* Round top right border */
+    border-bottom-right-radius: 20px; /* Round bottom right border */
+    font-weight: 600;
+    /* font-size: 18px; */
+}
+
+.nav-item1 {
+    padding: 10px;
+    list-style: none; /* Remove list item dots */
+}
+
+.nav-link1 {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-size: 19px; /* Increase font size */
+    padding: 10px; /* Add padding for equal spacing */
+    
+}
+
+.nav-link1:hover {
+    background-color: #4682b4; /* Darker shade of blue on hover */
+    border-radius: 20px;
+    width: 90%;
+}
+
+
+.content {
+    flex: 1;
+}
+
+/* Appointment.css */
+
+
+.form-label {
+    font-weight: bold;
+}
+
+.success-message {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: #4caf50;
+}
