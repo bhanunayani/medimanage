@@ -1,8 +1,0 @@
-const firebaseConfig = {
-  apiKey: "AIzaSyBhaemG6FWBNztAh8Jv_CaPFL-tup7sK7E",
-  authDomain: "wanderluster-71a48.firebaseapp.com",
-  projectId: "wanderluster-71a48",
-  storageBucket: "wanderluster-71a48.appspot.com",
-  messagingSenderId: "662056188230",
-  appId: "1:662056188230:web:701eaa4b14a1f5a5008d47"
-};
